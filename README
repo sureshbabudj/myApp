@@ -1,4 +1,5 @@
 # Nutrient Assistant
+
 ## _Get all nutritant info at one place, Ever_
 
 
@@ -7,7 +8,7 @@ Nutrient Assistant is an app which allows you to see info about any food item.
 - Composition of Foods 
 - Raw
 - Processed,
-- ✨Prepared ✨
+- ✨ Prepared ✨
 
 ## Features
 
@@ -46,6 +47,6 @@ npm install --production
 NODE_ENV=production npm run build
 ```
 
-
 ## Source of data
+
  - [US Department of Agriculture](https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/sr11-sr28/)
