@@ -1,0 +1,51 @@
+# Nutrient Assistant
+## _Get all nutritant info at one place, Ever_
+
+
+Nutrient Assistant is an app which allows you to see info about any food item.
+
+- Composition of Foods 
+- Raw
+- Processed,
+- ✨Prepared ✨
+
+## Features
+
+Nutrient Assistant consists of several sets of data for each food item: 
+- food descriptions
+- nutrients
+- weights and measures
+- footnotes
+- sources of data. 
+
+## Tech
+
+Nutrient Assistant uses a number of open source projects to work properly:
+
+- [ReactJS] - HTML enhanced for web apps!
+- [node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework [@tjholowaychuk]
+- [JSON-GRAPHQL-SERVER] - the readymade GRAPHQL server
+
+## Installation
+
+Nutrient Assistant requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Install the dependencies and devDependencies and start the server for api.
+
+```sh
+cd nutrient_assistant/server
+npm i
+npm run start
+```
+
+For production environments...
+
+```sh
+npm install --production
+NODE_ENV=production npm run build
+```
+
+
+## Source of data
+ - [US Department of Agriculture](https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/sr11-sr28/)
